@@ -159,17 +159,19 @@ Google_Play_Store_Internship_Project/
 └── README.md
 
 🔍 Key Skills Demonstrated
-Data preprocessing
-Data cleaning
-Exploratory data analysis
-Pandas DataFrame operations
-Filtering and aggregation
-Grouping data
-Feature creation
-Data visualization
-Interactive chart development
-Dashboard-oriented analytics
-Working with real-world datasets
+
+- Data preprocessing and cleaning
+- Exploratory data analysis (EDA)
+- Pandas DataFrame operations
+- Data filtering, grouping, and aggregation
+- Handling missing values and duplicate records
+- Feature creation and data transformation
+- Statistical analysis of ratings, reviews, and installs
+- Interactive data visualization using Plotly
+- Dashboard development using Jupyter Notebook
+- Working with real-world datasets
+- Extracting meaningful insights from data
+
 📈 Key Outcomes
 
 The project demonstrates how real-world application data can be transformed into meaningful business insights.
