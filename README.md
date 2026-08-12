@@ -152,9 +152,9 @@ Google_Play_Store_Internship_Project/
 │   ├── Choropleth_Map.ipynb
 │   ├── dual_axis.ipynb
 │   ├── line_chart.ipynb
-│   └── stacked_area_chart.ipynb
+│   ├── stacked_area_chart.ipynb
+|   └── Dashboard.ipynb
 │
-├── Screenshots/
 │
 └── README.md
 
