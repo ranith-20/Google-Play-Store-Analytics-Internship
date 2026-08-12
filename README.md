@@ -6,7 +6,7 @@ This project was developed as part of my internship training using the **Google 
 
 The main objective of the project is to analyze Android applications and generate meaningful insights about app ratings, reviews, installs, categories, app types, revenue, and growth trends.
 
-The internship tasks were implemented as analytics features and visualizations using the same Google Play Store dataset provided during training.
+The internship tasks were implemented as analytical features and visualizations using the Google Play Store dataset provided during the training.
 
 ---
 
@@ -56,8 +56,8 @@ The datasets contain information such as:
 - Pandas
 - NumPy
 - Plotly
-- Jupyter Notebook
 - Matplotlib
+- Jupyter Notebook
 - Data Cleaning
 - Data Analysis
 - Data Visualization
@@ -91,7 +91,7 @@ Application categories were analyzed to understand:
 
 ### 3. Install and Growth Analysis
 
-Monthly application installs were analyzed to identify cumulative installation trends and significant growth across application categories.
+Application installation data was analyzed to identify installation trends and growth patterns across application categories.
 
 ### 4. Free vs Paid Application Analysis
 
@@ -131,9 +131,9 @@ These visualizations make the analytical results easier to understand.
 
 Some internship tasks include specific dashboard availability requirements.
 
-The project implements time-based visibility for the corresponding visualizations according to the task requirements.
+The corresponding visualizations include time-based visibility controls according to the requirements of the assigned tasks.
 
-This ensures that specific charts are displayed only during their assigned time windows.
+These controls ensure that task-specific visualizations are displayed only during their designated availability periods.
 
 ---
 
@@ -153,12 +153,14 @@ Google_Play_Store_Internship_Project/
 │   ├── dual_axis.ipynb
 │   ├── line_chart.ipynb
 │   ├── stacked_area_chart.ipynb
-|   └── Dashboard.ipynb
-│
+│   └── Dashboard.ipynb
 │
 └── README.md
+```
 
-🔍 Key Skills Demonstrated
+---
+
+## 🔍 Key Skills Demonstrated
 
 - Data preprocessing and cleaning
 - Exploratory data analysis (EDA)
@@ -172,39 +174,141 @@ Google_Play_Store_Internship_Project/
 - Working with real-world datasets
 - Extracting meaningful insights from data
 
-📈 Key Outcomes
+---
 
-The project demonstrates how real-world application data can be transformed into meaningful business insights.
+## 📈 Key Outcomes
 
-The analysis helps understand:
+The analysis of the Google Play Store dataset produced several useful insights:
 
-Which categories perform strongly.
-How installs change over time.
-Differences between free and paid applications.
-Relationship between ratings and reviews.
-Categories with high application engagement.
-Application growth patterns.
-🚀 Future Improvements
+- Identified categories with high application installations.
+- Compared application ratings across different categories.
+- Analyzed the relationship between ratings and review counts.
+- Compared free and paid applications based on their performance.
+- Identified categories with high user engagement through reviews and installs.
+- Analyzed installation and growth trends over time.
+- Used filtering and aggregation to identify important category-level patterns.
+- Created interactive visualizations to communicate analytical findings effectively.
+- Developed a consolidated dashboard containing the major project visualizations.
+
+---
+
+## 📊 Dashboard
+
+A dedicated Jupyter Notebook dashboard was created to bring together the major visualizations from the internship tasks.
+
+The dashboard includes:
+
+- Key performance indicators
+- Category-wise analysis
+- Top categories by installations
+- Category-wise average ratings
+- Free vs paid application analysis
+- Ratings vs reviews analysis
+- Installs vs reviews analysis
+- Category-wise review analysis
+- Task-specific filtered analysis
+- Dual-axis visualization comparing average ratings and total reviews
+
+**Dashboard Notebook:** `Notebooks/Dashboard.ipynb`
+
+---
+
+## 📚 Notebooks
+
+The project contains individual Jupyter Notebooks for the major visualizations:
+
+| Notebook | Purpose |
+|---|---|
+| `bar_chart.ipynb` | Bar chart analysis |
+| `bubble_chart.ipynb` | Bubble chart analysis |
+| `Choropleth_Map.ipynb` | Choropleth map visualization |
+| `dual_axis.ipynb` | Dual-axis visualization |
+| `line_chart.ipynb` | Line chart analysis |
+| `stacked_area_chart.ipynb` | Stacked area chart analysis |
+| `Dashboard.ipynb` | Consolidated project dashboard |
+
+---
+
+## 🧰 Project Workflow
+
+The project follows a structured data analytics workflow:
+
+1. Load the datasets.
+2. Inspect the dataset structure and data types.
+3. Identify missing values and duplicate records.
+4. Clean and preprocess the data.
+5. Convert columns into analysis-ready formats.
+6. Perform filtering and data transformation.
+7. Group and aggregate the data.
+8. Generate analytical insights.
+9. Create interactive visualizations.
+10. Combine major visualizations into a dashboard.
+11. Test the notebooks and dashboard.
+12. Document the completed project.
+
+---
+
+## 💻 How to Run the Project
+
+### Requirements
+
+Install the required Python libraries:
+
+```bash
+pip install pandas numpy plotly matplotlib jupyter
+```
+
+### Run the notebooks
+
+1. Clone or download the repository.
+2. Open the project directory.
+3. Start Jupyter Notebook or JupyterLab.
+4. Open the required notebook from the `Notebooks` folder.
+5. Run the cells from top to bottom.
+
+The datasets required by the notebooks are available in the `Data` folder.
+
+---
+
+## 📌 Key Insights
+
+The project demonstrates several important analytical relationships within the Google Play Store dataset:
+
+- Application categories differ significantly in installation levels.
+- Review counts provide an indication of user engagement.
+- Ratings can be compared across categories to identify highly rated application groups.
+- Free applications represent a large portion of the available applications.
+- Installs and reviews can be analyzed together to understand application popularity.
+- Filtering and aggregation can reveal category-level patterns that are not immediately visible in the raw dataset.
+
+---
+
+## 🚀 Future Improvements
 
 Possible future improvements include:
 
-Combining all visualizations into a single interactive dashboard.
-Adding interactive category and app filters.
-Adding KPI cards for important metrics.
-Improving dashboard design and responsiveness.
-Deploying the dashboard online.
-Adding automated data updates.
-Adding advanced predictive analytics.
-👨‍💻 Project Author
+- Adding interactive category and application filters.
+- Improving dashboard responsiveness and visual design.
+- Adding more advanced KPI cards and summary statistics.
+- Deploying the dashboard as an online interactive application.
+- Adding automated data updates.
+- Adding advanced predictive analytics and machine-learning models.
+- Adding additional user-review sentiment analysis.
 
-Name: Ranith Bollavathri
+---
 
-Domain: Data Analytics / Data Science
+## 👨‍💻 Project Author
 
-Project: Google Play Store Analytics – Internship Project
+**Name:** Ranith Bollavathri  
+**Domain:** Data Analytics / Data Science  
+**Project:** Google Play Store Analytics – Internship Project
 
-📌 Conclusion
+---
+
+## 📌 Conclusion
 
 This project applies data analytics and visualization techniques to the Google Play Store dataset provided during the internship.
 
-The completed tasks demonstrate the complete analytics workflow, from data cleaning and preprocessing to filtering, analysis, visualization, and dashboard-oriented reporting.
+The completed work demonstrates the complete analytics workflow, from data cleaning and preprocessing to filtering, aggregation, analysis, visualization, and dashboard-oriented reporting.
+
+The project also demonstrates the ability to work with real-world datasets and communicate analytical findings through interactive visualizations.
